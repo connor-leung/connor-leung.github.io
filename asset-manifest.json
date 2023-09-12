@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/connor-leung.github.io/static/css/main.6950f310.css",
-    "main.js": "/connor-leung.github.io/static/js/main.c2284916.js",
-    "static/js/787.71e672d5.chunk.js": "/connor-leung.github.io/static/js/787.71e672d5.chunk.js",
+    "main.js": "/connor-leung.github.io/static/js/main.53942a87.js",
+    "static/js/787.74e64b50.chunk.js": "/connor-leung.github.io/static/js/787.74e64b50.chunk.js",
     "static/media/QTMA headshots-6.jpg": "/connor-leung.github.io/static/media/QTMA headshots-6.2b6478829c7e935567a2.jpg",
     "static/media/IMG_5743.JPG": "/connor-leung.github.io/static/media/IMG_5743.213589922a55d4fca4a5.JPG",
     "static/media/banner-bg.JPG": "/connor-leung.github.io/static/media/banner-bg.c023f8898e146d9e6a6b.JPG",
@@ -18,11 +18,11 @@
     "index.html": "/connor-leung.github.io/index.html",
     "static/media/nav-icon1.svg": "/connor-leung.github.io/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.6950f310.css.map": "/connor-leung.github.io/static/css/main.6950f310.css.map",
-    "main.c2284916.js.map": "/connor-leung.github.io/static/js/main.c2284916.js.map",
-    "787.71e672d5.chunk.js.map": "/connor-leung.github.io/static/js/787.71e672d5.chunk.js.map"
+    "main.53942a87.js.map": "/connor-leung.github.io/static/js/main.53942a87.js.map",
+    "787.74e64b50.chunk.js.map": "/connor-leung.github.io/static/js/787.74e64b50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6950f310.css",
-    "static/js/main.c2284916.js"
+    "static/js/main.53942a87.js"
   ]
 }
