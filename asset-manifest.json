@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fd97854.css",
-    "main.js": "/static/js/main.760e3f51.js",
-    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
-    "static/media/QTMA headshots-6.jpg": "/static/media/QTMA headshots-6.2b6478829c7e935567a2.jpg",
-    "static/media/IMG_5743.JPG": "/static/media/IMG_5743.213589922a55d4fca4a5.JPG",
-    "static/media/banner-bg.JPG": "/static/media/banner-bg.c023f8898e146d9e6a6b.JPG",
-    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
-    "static/media/logo.png": "/static/media/logo.c9889d62fc5aee0272ee.png",
-    "static/media/qcbt.png": "/static/media/qcbt.79919511c15bb9ee3ae5.png",
-    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
-    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/Pebble Shore Technologies Inc..png": "/static/media/Pebble Shore Technologies Inc..3305cca1cca71d8c777a.png",
-    "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
-    "static/media/nav-icon2.svg": "/static/media/nav-icon2.5d34c405de5d37002d2d8a58bfe20b40.svg",
-    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "index.html": "/index.html",
-    "main.5fd97854.css.map": "/static/css/main.5fd97854.css.map",
-    "main.760e3f51.js.map": "/static/js/main.760e3f51.js.map",
-    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
+    "main.css": "/website/static/css/main.9c51b96e.css",
+    "main.js": "/website/static/js/main.96c2a0fe.js",
+    "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
+    "static/media/QTMA headshots-6.jpg": "/website/static/media/QTMA headshots-6.2b6478829c7e935567a2.jpg",
+    "static/media/IMG_5743.JPG": "/website/static/media/IMG_5743.213589922a55d4fca4a5.JPG",
+    "static/media/banner-bg.JPG": "/website/static/media/banner-bg.c023f8898e146d9e6a6b.JPG",
+    "static/media/color-sharp2.png": "/website/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/logo.png": "/website/static/media/logo.c9889d62fc5aee0272ee.png",
+    "static/media/qcbt.png": "/website/static/media/qcbt.79919511c15bb9ee3ae5.png",
+    "static/media/CentraNo2-Bold.ttf": "/website/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/website/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/website/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/Pebble Shore Technologies Inc..png": "/website/static/media/Pebble Shore Technologies Inc..3305cca1cca71d8c777a.png",
+    "static/media/nav-icon3.svg": "/website/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/nav-icon2.svg": "/website/static/media/nav-icon2.5d34c405de5d37002d2d8a58bfe20b40.svg",
+    "index.html": "/website/index.html",
+    "static/media/nav-icon1.svg": "/website/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.9c51b96e.css.map": "/website/static/css/main.9c51b96e.css.map",
+    "main.96c2a0fe.js.map": "/website/static/js/main.96c2a0fe.js.map",
+    "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fd97854.css",
-    "static/js/main.760e3f51.js"
+    "static/css/main.9c51b96e.css",
+    "static/js/main.96c2a0fe.js"
   ]
 }
