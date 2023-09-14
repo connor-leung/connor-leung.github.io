@@ -45,11 +45,11 @@ export const NavBar = () => {
         </Nav>
         <span className="navbar-text">
             <div className="social-icon">
-            <a href="https://www.linkedin.com/in/connorleung/"><img src={navIcon1} alt="" /></a>
-            <a href="https://github.com/connor-leung"><img src={navIcon2} alt="" /></a>
-            <a href="https://www.instagram.com/captures.cl/"><img src={navIcon3} alt="" /></a>
+              <a href="https://www.linkedin.com/in/connorleung/"><img src={navIcon1} alt="" /></a>
+              <a href="https://github.com/connor-leung"><img src={navIcon2} alt="" /></a>
+              <a href="https://www.instagram.com/captures.cl/"><img src={navIcon3} alt="" /></a>
             </div>
-            <button className="vvd" onClick={() => window.location.href="https://drive.google.com/file/d/19If3P3qMA0fRAbCUl9kUf936yfmXT7h5/view"}><span>Resume</span></button> 
+            <button className="vvd" onClick={() => window.location.href="https://drive.google.com/file/d/1g-b8p9_CTkDTySJ5vPEsR01jmzjpHFVB/view?usp=sharing"}><span>Resume</span></button> 
         </span>
         </Navbar.Collapse>
     </Container>

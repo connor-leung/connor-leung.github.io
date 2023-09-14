@@ -56,7 +56,7 @@ export const Banner = () => {
                                 <p>
                                     Currently a Second Year studying Computer Engineering Innovation student at Queen's University. I have a passion for entreprenuership and innovation.
                                 </p>
-                                <button onClick={() => window.location.href="https://drive.google.com/file/d/19If3P3qMA0fRAbCUl9kUf936yfmXT7h5/view"}>Resume <ArrowRightCircle size={25} /></button>
+                                <button onClick={() => window.location.href="https://drive.google.com/file/d/1g-b8p9_CTkDTySJ5vPEsR01jmzjpHFVB/view?usp=sharing"}>Resume <ArrowRightCircle size={25} /></button>
                             </div>
                         } 
                         </TrackVisibility>
