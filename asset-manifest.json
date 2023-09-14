@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bd9c382e.css",
-    "main.js": "/static/js/main.b6fb7de2.js",
+    "main.js": "/static/js/main.fd85e741.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/QTMA headshots-6.jpg": "/static/media/QTMA headshots-6.2b6478829c7e935567a2.jpg",
     "static/media/IMG_5743.JPG": "/static/media/IMG_5743.213589922a55d4fca4a5.JPG",
@@ -18,11 +18,11 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "main.bd9c382e.css.map": "/static/css/main.bd9c382e.css.map",
-    "main.b6fb7de2.js.map": "/static/js/main.b6fb7de2.js.map",
+    "main.fd85e741.js.map": "/static/js/main.fd85e741.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd9c382e.css",
-    "static/js/main.b6fb7de2.js"
+    "static/js/main.fd85e741.js"
   ]
 }
