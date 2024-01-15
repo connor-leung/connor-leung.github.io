@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headshot from '../assets/img/QTMA headshots-6.jpg'
+import headshot from '../assets/img/QTMA Headshots R1 (27 of 31).jpg'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
