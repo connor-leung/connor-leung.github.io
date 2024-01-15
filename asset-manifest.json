@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.bd9c382e.css",
-    "main.js": "/static/js/main.fd85e741.js",
+    "main.js": "/static/js/main.821d5e8b.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
-    "static/media/QTMA headshots-6.jpg": "/static/media/QTMA headshots-6.2b6478829c7e935567a2.jpg",
+    "static/media/QTMA Headshots R1 (27 of 31).jpg": "/static/media/QTMA Headshots R1 (27 of 31).bb1f17334bf838d45982.jpg",
     "static/media/IMG_5743.JPG": "/static/media/IMG_5743.213589922a55d4fca4a5.JPG",
     "static/media/banner-bg.JPG": "/static/media/banner-bg.c023f8898e146d9e6a6b.JPG",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -18,11 +18,11 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "main.bd9c382e.css.map": "/static/css/main.bd9c382e.css.map",
-    "main.fd85e741.js.map": "/static/js/main.fd85e741.js.map",
+    "main.821d5e8b.js.map": "/static/js/main.821d5e8b.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd9c382e.css",
-    "static/js/main.fd85e741.js"
+    "static/js/main.821d5e8b.js"
   ]
 }
