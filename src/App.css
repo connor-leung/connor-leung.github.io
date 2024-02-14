@@ -233,12 +233,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 300px 0;
-  background-image: url('./assets/img/banner-bg.JPG');
+  padding: 260px 0 200px 0;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  /* The image used */
+  background-image: url("../src/assets/img/banner-bg.jpg");
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
 }
+
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -424,7 +439,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  background-image: url("./assets/img/IMG_5743.JPG");
+  /* background-image: url("../src/assets/img/footer-bg.png"); */
   padding: 60px 0 50px 100px;
 }
 .contact h2 {

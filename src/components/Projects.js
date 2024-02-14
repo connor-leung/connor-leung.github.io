@@ -139,6 +139,8 @@ export const Projects = () => {
                 </Row>
             </Container>
             <img className="background-image-right" src={colorSharp2} />
+
+            
         </section>
     )
 }
