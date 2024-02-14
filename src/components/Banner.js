@@ -4,6 +4,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons"
 import headshot from '../assets/img/QTMA Headshots R1 (27 of 31).jpg'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
+import './Banner.css'
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0)
@@ -62,7 +63,7 @@ export const Banner = () => {
                         </TrackVisibility>
                     </Col>
                     <Col>
-                        <img src={headshot} className="profile"/> 
+                        {/* <img src={headshot} className="profile"/>  */}
                     </Col>
                 </Row>
             </Container>
