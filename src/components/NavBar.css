@@ -21,6 +21,7 @@ nav.navbar {
     padding: 0 25px;
     font-size: 18px;
     opacity: 0.75;
+    
   }
   nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
   nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -152,7 +153,7 @@ nav.navbar {
 
   }
 
-    .img-container .logo{
+.img-container .logo{
         width: 30px;
         height: 30px;
         object-fit: cover;

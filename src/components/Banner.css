@@ -4,20 +4,12 @@
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-  
-    /* The image used */
     background-image: url("../assets/img/banner-bg.jpg");
-  
-    /* Set a specific height */
     min-height: 400px;
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-  
   }
   
   
@@ -40,7 +32,7 @@
     display: block;
   }
   .banner p {
-    color: #B8B8B8;
+    color: #fff;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;

@@ -1,6 +1,14 @@
 .contact {
-    /* background-image: url("../src/assets/img/footer-bg.png"); */
-    padding: 60px 0 50px 100px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../assets/img/contact-bg.png");
+    padding: 200px 0 200px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .contact h2 {
       font-size: 45px;

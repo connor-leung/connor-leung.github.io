@@ -1,21 +1,29 @@
-import { Col } from "react-bootstrap"
 import "./ProjectCard.css"
 
-export const ProjectCard = ({ title, description, imgUrl}) => {
+export const ProjectCard = ({ title, description, imgUrl, url}) => {
 
-    const onClick = () => {
-        window.location.href = "https://www.google.com"
+    const projectPage = () => {
+        window.open(url, '_blank')
     }
 
     return (
-        <Col sm={6} md={4}>
-            <button className="proj-imgbx" onClick={onClick}>
-                <img src={imgUrl} alt={title} />
-                <div className="proj-txtx">
-                    <h4>{title}</h4>
-                    <span>{description}</span>
+        <div className="project-box">
+            <button onClick={projectPage}>
+                <img className="image" src={imgUrl} alt={title} />
+                <div className="text">
+                    <h3>
+                        {title}
+                    </h3>
+                    <p className="description">
+                        {description}
+                    </p>
                 </div>
+                <button className="project-button" onClick={projectPage}>
+                    <span className="button-text">Click Here to View Project</span>
+                </button>
             </button>
-        </Col>
+        </div>
     )
 }
+
+export default ProjectCard

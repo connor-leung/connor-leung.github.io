@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Navbar, Nav, Container, Link} from "react-bootstrap";
+import { Navbar, Nav, Container} from "react-bootstrap";
 import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
@@ -29,6 +29,10 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+  const handleResume = () => {
+    window.open("https://drive.google.com/file/d/1GyXQaNuuA8Q71N557TXbyG9LZI4-DcsU/view?usp=sharing", '_blank')
+  }
+
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
@@ -50,9 +54,9 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/connorleung/"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/connor-leung"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/captures.cl/"><img src={navIcon3} alt="" /></a>
+                <a href="mailto:connor.leung@queensu.ca"><img src={navIcon3} alt="" /></a>
               </div>
-              <button className="vvd" onClick={() => window.location.href="https://drive.google.com/file/d/1g-b8p9_CTkDTySJ5vPEsR01jmzjpHFVB/view?usp=sharing"}><span>Resume</span></button> 
+              <button className="vvd" onClick={handleResume}><span>Resume</span></button> 
           </span>
           </Navbar.Collapse>
       </Container>
