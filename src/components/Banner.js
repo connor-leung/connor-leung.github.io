@@ -43,8 +43,6 @@ export const Banner = () => {
         return () => { clearInterval(ticker)}
     }, [text, delta, tick])
 
-    
-
     const handleResume = () => {
         window.open("https://drive.google.com/file/d/1GyXQaNuuA8Q71N557TXbyG9LZI4-DcsU/view?usp=sharing", '_blank')
     }
