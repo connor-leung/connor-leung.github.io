@@ -13,7 +13,7 @@ export const Projects = () => {
             (entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        entry.target.classList.add('animate__animated', 'animate__fadeInRight');
+                        entry.target.classList.add('animate__animated', 'animate__fadeIn');
                     }
                 });
             },
