@@ -121,3 +121,14 @@
     letter-spacing: 0.5px;
     border-radius: 18px;
   }
+
+  .contact-info {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+  }
+  .contact-details {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+  }

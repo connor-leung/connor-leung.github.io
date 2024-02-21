@@ -74,6 +74,23 @@ export const Contact = () => {
                         </Row>
                     </form>
                 </Row>
+                <Row>
+                    <div className="contact-info">
+                        <h3>Or You Can Find Me Here</h3>
+                        <div className="contact-details">
+                            <Col>
+                                <p>Phone: +1 (778) 788 6178</p>
+                            </Col>
+                            <Col>
+                                <p>Email: <a href="mailto:connor.leung@queensu.ca" style={{color:"white"}}>connor.leung@queensu.ca</a></p>
+                            </Col>
+                            <Col>
+                                <p>Linkedin: <a href="https://www.linkedin.com/in/connorleung" style={{color:"white"}}>ConnorLeung</a></p>
+                               
+                            </Col>
+                        </div>
+                    </div>
+                </Row>
             </Container>
         </section>
     )
