@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headshot from '../assets/img/QTMA Headshots R1 (27 of 31).jpg'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
+import './Banner.css'
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0)
@@ -12,14 +12,6 @@ export const Banner = () => {
     const [text, setText] = useState('')
     const [delta, setDelta] = useState(300 - Math.random() * 100)
     const period = 2000
-
-    useEffect(() => {
-        let ticker = setInterval(() => {
-            tick()
-        }, delta)
-
-        return () => { clearInterval(ticker)}
-    }, [text])
 
     const tick = () => {
         let i = loopNum % toRotate.length
@@ -42,6 +34,20 @@ export const Banner = () => {
         }
 
     }
+    
+    useEffect(() => {
+        let ticker = setInterval(() => {
+            tick()
+        }, delta)
+
+        return () => { clearInterval(ticker)}
+    }, [text, delta, tick])
+
+    
+
+    const handleResume = () => {
+        window.open("https://drive.google.com/file/d/1GyXQaNuuA8Q71N557TXbyG9LZI4-DcsU/view?usp=sharing", '_blank')
+    }
 
     return (
         <section className="banner" id="home">
@@ -51,18 +57,14 @@ export const Banner = () => {
                         <TrackVisibility>
                         {({ isVisable }) => 
                             <div className={isVisable ? "animated__animated animate__fadeIn" : ""}>
-                                <span className="tagline">Welcome to my Portfolio</span>
                                 <h1>{`Hi I'm `}<span className="wrap">{text}</span></h1>
                                 <p>
                                     Currently a Second Year studying Computer Engineering Innovation student at Queen's University. I have a passion for entreprenuership and innovation.
                                 </p>
-                                <button onClick={() => window.location.href="https://drive.google.com/file/d/1g-b8p9_CTkDTySJ5vPEsR01jmzjpHFVB/view?usp=sharing"}>Resume <ArrowRightCircle size={25} /></button>
+                                <button onClick={handleResume}>Resume <ArrowRightCircle size={25} /></button>
                             </div>
                         } 
                         </TrackVisibility>
-                    </Col>
-                    <Col>
-                        <img src={headshot} className="profile"/> 
                     </Col>
                 </Row>
             </Container>
