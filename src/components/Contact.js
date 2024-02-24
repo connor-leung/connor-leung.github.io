@@ -1,6 +1,7 @@
 import { useState } from "react"
-import { Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row, Icon } from "react-bootstrap"
 import "./Contact.css"
+import { Linkedin, Phone, Envelope} from "react-bootstrap-icons"
 
 export const Contact = () => {
     const formInitialDetails = {
@@ -79,14 +80,11 @@ export const Contact = () => {
                         <h3>Or You Can Find Me Here</h3>
                         <div className="contact-details">
                             <Col>
-                                <p>Phone: +1 (778) 788 6178</p>
-                            </Col>
-                            <Col>
-                                <p>Email: <a href="mailto:connor.leung@queensu.ca" style={{color:"white"}}>connor.leung@queensu.ca</a></p>
-                            </Col>
-                            <Col>
-                                <p>Linkedin: <a href="https://www.linkedin.com/in/connorleung" style={{color:"white"}}>ConnorLeung</a></p>
-                               
+                                <p>
+                                    <Phone/> +1 (778) 788 6178
+                                    |  <Envelope/> <a href="mailto:connor.leung@queensu.ca" style={{color:"white"}}>connor.leung@queensu.ca</a> <span> </span>
+                                    |  <Linkedin/> <a href="https://www.linkedin.com/in/connorleung" style={{color:"white"}}>ConnorLeung</a>
+                                </p>
                             </Col>
                         </div>
                     </div>

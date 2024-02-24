@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row, Nav} from "react-bootstrap"
 import logo from "../assets/img/logo.png"
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
@@ -12,7 +12,7 @@ export const Footer = () => {
             <Container>
                 <Row className="align-item-center">
                     <Col size={12} sm={6}>
-                        <img src={logo} alt="Logo"/>
+                        <Nav.Link href="#home"><img src={logo} alt="Logo"/></Nav.Link>
                     </Col>
                     <Col size={12} sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
