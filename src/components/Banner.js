@@ -59,7 +59,7 @@ export const Banner = () => {
                                 <p>
                                     Currently a Second Year studying Computer Engineering Innovation student at Queen's University. I have a passion for entreprenuership and innovation.
                                 </p>
-                                <button onClick={handleResume}>Resume <ArrowRightCircle size={25} /></button>
+                                <button onClick={handleResume}>Résumé <ArrowRightCircle size={25} /></button>
                             </div>
                         } 
                         </TrackVisibility>

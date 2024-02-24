@@ -56,7 +56,7 @@ export const NavBar = () => {
                 <a href="https://github.com/connor-leung"><img src={navIcon2} alt="" /></a>
                 <a href="mailto:connor.leung@queensu.ca"><img src={navIcon3} alt="" /></a>
               </div>
-              <button className="vvd" onClick={handleResume}><span>Resume</span></button> 
+              <button className="vvd" onClick={handleResume}><span>Résumé</span></button> 
           </span>
           </Navbar.Collapse>
       </Container>
