@@ -33,7 +33,7 @@ const ListOfProjects = [
         title: "BattleShip",
         description: "Simple interactive two player pass and play battleship terminal game made in Java. (2022)",
         imgUrl: Battleship,
-        url: "https://github.com/connor-leung/103Project"
+        url: "https://github.com/connor-leung/APCompSciA/blob/main/src/ArraysNotes/BattleShip.java"
     }
 ]
 
