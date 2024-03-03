@@ -57,9 +57,9 @@ export const Banner = () => {
                             <div className={isVisable ? "animated__animated animate__fadeIn" : ""}>
                                 <h1>{`Hi I'm `}<span className="wrap">{text}</span></h1>
                                 <p>
-                                    Currently a Second Year studying Computer Engineering Innovation student at Queen's University. I have a passion for entreprenuership and innovation.
+                                    Currently a Second Year studying Computer Engineering Innovation student at Queen's University. I have a passion for entreprenuership and innovation. I also do photography.
                                 </p>
-                                <button onClick={handleResume}>Résumé <ArrowRightCircle size={25} /></button>
+                                <button onClick={handleResume}>Resumé <ArrowRightCircle size={25} /></button>
                             </div>
                         } 
                         </TrackVisibility>

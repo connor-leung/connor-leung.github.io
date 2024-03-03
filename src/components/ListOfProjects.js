@@ -11,12 +11,12 @@ const ListOfProjects = [
         description: "A computer-vision software that tracks vehicle linearity through public-access cams. (QHacks 2024 | Mayor's Innovation Challenge Winner)",
         url: "https://devpost.com/software/god-s-eye-tv7hz8#updates"
     },
-    // {
-    //     title: "Dilliad",
-    //     description: "Personal AI outfit stylist: a web app that uses a language learning model to recommend outfits based on user preferences. (QTMA 2023-24)",
-    //     imgUrl: Dilliad,
-    //     url: "https://team-alex-devs.github.io/team-alex-website/"
-    // },
+    {
+        title: "Dilliad",
+        description: "Powered by DripAI, Dilliad, a mobile app that uses a language learning model to recommend outfits based on user preferences. (QTMA 2023-24 | 1st Place Winner at McKinsey & Company's Pitch)",
+        imgUrl: Dilliad,
+        url: "https://team-alex-devs.github.io/team-alex-website/"
+    },
     {
         title: "Heavy Metal Detector",
         description: "A portable appliance that empowers underprivileged communities to detect heavy metals to raise awareness of the drinking water quality. (2023)",
